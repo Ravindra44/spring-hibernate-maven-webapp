@@ -152,10 +152,16 @@
             </plugins>
 	</build>
 	<distributionManagement>
-        <repository>
-            <id>releases</id>
-            <url>http://192.168.0.20:8081/nexus/content/repositories/releases/</url>
-        </repository>
-    	</distributionManagement>
+		<repository>
+			<id>release</id>
+			<name>releases</name>
+			<url>http://192.168.0.45:8081/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshot</id>
+			<name>snapshots</name>
+			<url>http://192.168.0.45:8081/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
 
