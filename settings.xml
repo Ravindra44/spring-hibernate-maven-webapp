@@ -8,7 +8,7 @@
     <server>
       <id>snapshots</id>
       <username>admin</username>
-      <password>admin</password>
+      <password>password</password>
     </server>
 </servers>
 </settings>
